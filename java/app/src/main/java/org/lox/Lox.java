@@ -9,7 +9,7 @@ import java.io.StreamTokenizer;
 
 public class Lox {
   public String getGreeting() {
-    return "Hello World! LULULULULfdas fsdaf";
+    return "Hello World!";
   }
 
   public String lol() {
