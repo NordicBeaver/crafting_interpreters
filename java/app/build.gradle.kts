@@ -43,3 +43,8 @@ application {
     mainClass = "org.lox.Lox"
 }
 
+tasks.register<JavaExec>("generateAst") {
+    mainClass.set("org.tool.GenerateAst")
+    classpath = sourceSets["main"].runtimeClasspath
+}
+
